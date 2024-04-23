@@ -9,16 +9,30 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Cyberpunk City Race.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Cyberpunk City Race" startnode="31" creator="Twine" creator-version="2.8.1" format="Harlowe" format-version="3.3.8" ifid="3AD011B4-5B6B-4B23-A10B-5AF75B6FF9CA" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="crash" color="orange"></tw-tag><tw-tag name="materiale" color="red"></tw-tag><tw-tag name="materiale2" color="red"></tw-tag><tw-passagedata pid="1" name="Intro" tags="materiale" position="400,600" size="100,100">&lt;img src=&quot;https://angelinakald.github.io/angelinakaldba.github.io/CP_Cars_IMG/intro.jpg &quot;\&gt;
+<tw-storydata name="Cyberpunk City Race" startnode="31" creator="Twine" creator-version="2.8.1" format="Harlowe" format-version="3.3.8" ifid="3AD011B4-5B6B-4B23-A10B-5AF75B6FF9CA" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-passage img {
+	display: block;
+	margin: 0 auto;
+}
+
+tw-passage {
+ 	font-family: rockwell;
+}
+
+tw-passage {
+  	text-align: center;
+}
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="crash" color="orange"></tw-tag><tw-tag name="materiale" color="red"></tw-tag><tw-tag name="materiale2" color="red"></tw-tag><tw-passagedata pid="1" name="Intro" tags="materiale" position="400,600" size="100,100">&lt;img src=&quot;https://angelinakald.github.io/angelinakaldba.github.io/CP_Cars_IMG/intro.jpg &quot;\&gt;
 
 You are standing still on the starting line of the racing track. Every contender, as well as everyone in the audience are sitting in anticipation waiting for the race to begin.
 
 [[Start the Race]] </tw-passagedata><tw-passagedata pid="2" name="Start the Race" tags="materiale" position="600,600" size="100,100">&lt;img src=&quot;https://angelinakald.github.io/angelinakaldba.github.io/CP_Cars_IMG/start_the_race.jpg&quot;\&gt;
 
-You look over to your left and see your rival sitting in their car taunting you. The starting pistol goes off, and you can hear the sound of your heart beating. You change the gear and hold in the gas pedal while slowly and carefully lifting your foot of the clutch.
+You look over to your left and see your rival sitting in their car taunting you. The starting pistol goes off, and you can hear the sound of your heart &lt;span style=&quot;font-size: 150%&quot;&gt;(text-colour:red)[beating]&lt;/span&gt;. You change the gear and hold in the gas pedal while slowly and carefully lifting your foot of the clutch.
 You press your foot down on the gas pedal and end up getting a decent position at the start of the race.
 
-[[Split in the Road]] </tw-passagedata><tw-passagedata pid="3" name="Split in the Road" tags="" position="800,600" size="100,100">You keep driving towards the split in the road.
+[[Split in the Road]] </tw-passagedata><tw-passagedata pid="3" name="Split in the Road" tags="materiale" position="800,600" size="100,100">&lt;img src=&quot;https://angelinakald.github.io/angelinakaldba.github.io/CP_Cars_IMG/left_right.jpg&quot;\&gt;
+
+You keep driving towards the split in the road.
 
 Do you drive towards the left or towards the right?
 
@@ -26,7 +40,8 @@ Do you drive towards the left or towards the right?
 
 [[Right]]
 
-</tw-passagedata><tw-passagedata pid="4" name="Left" tags="" position="1000,500" size="100,100">You encounter an obstacle. 
+</tw-passagedata><tw-passagedata pid="4" name="Left" tags="materiale" position="1000,500" size="100,100">&lt;img src=&quot;https://angelinakald.github.io/angelinakaldba.github.io/CP_Cars_IMG/cityscape_CP.jpg&quot;\&gt;
+You encounter an obstacle. 
 There is a roadblock ahead, and you can choose whether you want to knock it down or whether you want to drive around and risk losing your position on the leaderboard.
 
 [[Drive around]]
@@ -35,7 +50,8 @@ There is a roadblock ahead, and you can choose whether you want to knock it down
 
 You encounter an obstacle.
 there is a ramp with some water beneath it. You are unsure whether you can make the jump or not.
-Do you risk it?
+
+&lt;span style=&quot;font-size: 150%&quot;&gt;(text-colour:(hsl:120,0.8039,0.5,0.65))[Do you risk it?]&lt;/span&gt;
 
 [[Yes, keep going over the ramp]]
 
@@ -63,11 +79,13 @@ Further down the road you spot an ice bridge, it looks dangerously slippery. You
 
 [[Over the ice bridge]]
 
-[[Over the bumpy road]] </tw-passagedata><tw-passagedata pid="9" name="No, turn around and choose the other way" tags="" position="1200,850" size="100,100">You turn around and you lose your position on the leaderboard.
+[[Over the bumpy road]] </tw-passagedata><tw-passagedata pid="9" name="No, turn around and choose the other way" tags="materiale" position="1200,850" size="100,100">&lt;img src=&quot;https://angelinakald.github.io/angelinakaldba.github.io/CP_Cars_IMG/turn_around.jpg&quot;\&gt;
+
+You turn around and you lose your position on the leaderboard.
 
 [[Left]] </tw-passagedata><tw-passagedata pid="10" name="Through the tunnel" tags="materiale" position="1400,325" size="100,100">&lt;img src=&quot;https://angelinakald.github.io/angelinakaldba.github.io/CP_Cars_IMG/tunnel.jpg&quot;\&gt;
 A few meters into the tunnel, you arrive at a car crash that acts as a blockade.
-Flames are emitting from the broken cars and there is no way around it. 
+(text-colour:orange)[Flames] are emitting from the broken cars and there is no way around it. 
 
 Do you drive over the car crash or do you try to find another way around?
 
@@ -81,16 +99,16 @@ You can try to evade them, or you can just take your chances and drive over them
 [[Evade them]]
 
 [[Drive over them]]</tw-passagedata><tw-passagedata pid="12" name="Over the ice bridge" tags="materiale" position="2000,600" size="100,100">&lt;img src=&quot;https://angelinakald.github.io/angelinakaldba.github.io/CP_Cars_IMG/abovebridge_smaller.jpg&quot;\&gt;
-The ice bridge is really slippery. You can see your rival driving ahead of you and you contemplate whether you should speed up or keep the same pace.
+The(text-colour:cyan)[ ice bridge] is really slippery. You can see your rival driving ahead of you and you contemplate whether you should speed up or keep the same pace.
 
 [[Speed up to catch up]]
 
 [[Keep it slow]]
 
- </tw-passagedata><tw-passagedata pid="13" name="Drive over the car crash" tags="materiale" position="1575,200" size="100,100">&lt;img src=&quot;https://angelinakald.github.io/angelinakaldba.github.io/CP_Cars_IMG/tunnel_crash_smaller.jpg&quot;\&gt;
+ </tw-passagedata><tw-passagedata pid="13" name="Drive over the car crash" tags="materiale" position="1575,200" size="100,100">&lt;img src=&quot;https://angelinakald.github.io/angelinakaldba.github.io/CP_Cars_IMG/tunnel.jpg&quot;\&gt;
 
 You choose to drive over the car crash. 
-You reverse your car a little to get the amount of speed you´re going to need to get over the crash. You press your foot down on the gas pedal and steer your car towards the left side of the tunnel. In an arching motion you drive upside down on the roof and barely avoid the flames emitting from the crash. You drive down on the right side before exiting the tunnel. 
+You reverse your car a little to get the amount of speed you´re going to need to get over the crash. You press your foot down on the gas pedal and steer your car towards the left side of the tunnel. In an arching motion you drive upside down on the roof and barely avoid the (text-colour:orange)[flames] emitting from the crash. You drive down on the right side before exiting the tunnel. 
 
 
 [[continue]] </tw-passagedata><tw-passagedata pid="14" name="Find another way around" tags="materiale" position="1575,325" size="100,100">&lt;img src=&quot;https://angelinakald.github.io/angelinakaldba.github.io/CP_Cars_IMG/tunnel_crash_smaller.jpg&quot;\&gt;
@@ -99,7 +117,7 @@ There is no other way around. So, you decide to try driving over the crash.
 You just keep going and start steering your car towards the left side of the tunnel. 
 You don´t have enough speed. When your car goes upside down. The car falls and you land on top of the crash, crushing not only you dreams of winning, but also your skull.
 
-You died ...</tw-passagedata><tw-passagedata pid="15" name="Keep driving" tags="" position="2600,800" size="100,100">You see your rival driving off the ice bridge and they have the lead.
+&lt;span style=&quot;font-size: 200%&quot;&gt;(text-colour:red)[You died...]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="15" name="Keep driving" tags="" position="2600,800" size="100,100">You see your rival driving off the ice bridge and they have the lead.
 You speed up and you manage to gain on them. You see the finish line ahead.
 
 [[To the finish line]]
@@ -109,11 +127,11 @@ You try to evade them but you are unsuccessful.
 
 [[holey hell]]</tw-passagedata><tw-passagedata pid="17" name="Drive over them" tags="materiale" position="1575,575" size="100,100">&lt;img src=&quot;https://angelinakald.github.io/angelinakaldba.github.io/CP_Cars_IMG/holes.jpg&quot;\&gt;
 
-You drive over them and regret your decision when you hear a bursting sound coming from your right back tire. 
+You drive over them and regret your decision when you hear a &lt;span style=&quot;font-size: 150%&quot;&gt;(text-colour:purple)[bursting]&lt;/span&gt; sound coming from your right back tire. 
 
 [[holey hell]] </tw-passagedata><tw-passagedata pid="18" name="holey hell" tags="materiale" position="1750,500" size="100,100">&lt;img src=&quot;https://angelinakald.github.io/angelinakaldba.github.io/CP_Cars_IMG/holey_hell.jpg&quot;\&gt;
-You get a flat tire and end up losing the entire race.</tw-passagedata><tw-passagedata pid="19" name="continue" tags="" position="1750,200" size="100,100">&lt;img src=&quot;https://angelinakald.github.io/angelinakaldba.github.io/CP_Cars_IMG/icebridge.jpg&quot;\&gt;
-When you exit the tunnel, you spot your rival driving towards an ice bridge.
+You get a flat tire and end up losing the entire race.</tw-passagedata><tw-passagedata pid="19" name="continue" tags="materiale" position="1750,200" size="100,100">&lt;img src=&quot;https://angelinakald.github.io/angelinakaldba.github.io/CP_Cars_IMG/icebridge.jpg&quot;\&gt;
+When you exit the tunnel, you spot your rival driving towards an (text-colour:cyan)[ice bridge].
 
 [[Over the ice bridge]] </tw-passagedata><tw-passagedata pid="20" name="Speed up to catch up" tags="" position="2200,500" size="100,100">You drive so fast that you lose control of the steering wheel, and you end up crashing into your opponent.
 This sends both of you skidding towards the edge of the bridge.
@@ -130,7 +148,7 @@ the slightest motion could make them disapear down the side of the bridge.
 
 [[Race towards the finish line]]</tw-passagedata><tw-passagedata pid="24" name="Let them fend for themselves" tags="" position="2600,600" size="100,100">You drive past your rival. 
 Your name moves up a position on the leaderboard.
-You are now in the lead.
+You are now in the &lt;span style=&quot;font-size: 150%&quot;&gt;lead&lt;/span&gt;.
 
 [[End of the race]]</tw-passagedata><tw-passagedata pid="25" name="End of the race" tags="materiale" position="2800,600" size="100,100">&lt;img src=&quot;https://angelinakald.github.io/angelinakaldba.github.io/CP_Cars_IMG/finish_line_20.jpg&quot;\&gt;
 
@@ -141,17 +159,17 @@ There is only a few feet left until you pass the finish line and win the race.
 Your car is upside down and laying in its roof. Out of the corner of your eye, you can see the opponent that crashed into you race towards the finish line and win the race.
 
 [[The end]]</tw-passagedata><tw-passagedata pid="27" name="The end" tags="materiale" position="3400,600" size="100,100">&lt;img src=&quot;https://angelinakald.github.io/angelinakaldba.github.io/CP_Cars_IMG/podium.jpg&quot;\&gt;
-The End</tw-passagedata><tw-passagedata pid="28" name="Race towards the finish line" tags="" position="2800,400" size="100,100">you exit your car and go around towards the back. You press the button and open your trunk, looking for something to drag your rival off the edge of the bridge. 
+&lt;span style=&quot;font-size: 200%&quot;&gt;THE END&lt;/span&gt;</tw-passagedata><tw-passagedata pid="28" name="Race towards the finish line" tags="" position="2800,400" size="100,100">you exit your car and go around towards the back. You press the button and open your trunk, looking for something to drag your rival off the edge of the bridge. 
 You find some rope and walk towards the car hanging and now rocking back and forth on the edge. you tie the rope around the trailer hitch on the car. the other end, you tie around a sturdy looking tree at the end of the bridge. 
 you move towards the backdoor of the car and you open the door carefully. Your rival climbs between the two seats in the front and joins you in the back. You outstretch you hand for them to grab hold of and you can see a flicker of doubt color their face. 
--&quot;COME ON!&quot; you scream.
+&lt;span style=&quot;font-size: 175%&quot;&gt;&quot;COME ON!&quot;&lt;/span&gt;- you scream.
 They take your hand and you pull them out in the nick of time. 
 your arm gets pulled out of its socket and the writhing pain makes you scream an ear shattering scream. you keep pulling your rival until they are on safe ground.
 
 [[Teamwork makes the dreamwork]]</tw-passagedata><tw-passagedata pid="29" name="Teamwork makes the dreamwork" tags="materiale" position="3000,400" size="100,100">&lt;img src=&quot;https://angelinakald.github.io/angelinakaldba.github.io/CP_Cars_IMG/rope.jpg&quot;\&gt;
 
-The rope is torn in half and the car disappears. You hear a loud splash as the car breaks the water barrier. 
-Both you and your rival get in your car and you decide to keep going and win the race even with a painful shoulder.
+The rope is torn in half and the car disappears. You hear a loud &lt;span style=&quot;font-size: 150%&quot;&gt;(text-colour:navy)[SPLASH]&lt;/span&gt; as the car breaks the water barrier. 
+Both you and your rival get in your car and you decide to keep going and win the race even with a (text-colour:red)[painful] shoulder.
 You press your foot down on the gas pedal for the last time and your rival offers to take the steering wheel and steer you towards the finish line.
 Even with the unconventional way of driving, you manage to pass every other opponent.
 You drive over the finish line and win the race.
@@ -159,12 +177,19 @@ You drive over the finish line and win the race.
 [[The end]] 
 </tw-passagedata><tw-passagedata pid="30" name="To the finish line" tags="materiale" position="2800,800" size="100,100">&lt;img src=&quot;https://angelinakald.github.io/angelinakaldba.github.io/CP_Cars_IMG/finish_line_20.jpg&quot;\&gt;
 
-Your rival is only a few meters ahead of you as the finish line draws nearer. you start to shiver in anticipation, willing yourself to get control of your nerves. This is it, what you have been training for. Every hour spent on that racing track. Every blood, sweat and tear spent on this dream.
+Your rival is only a few meters ahead of you as the finish line draws nearer. you start to shiver in anticipation, willing yourself to get control of your nerves. This is it, what you have been training for. Every hour spent on that racing track. Every (text-colour:red)[blood], (text-colour:blue)[sweat] and (text-colour:navy)[tear] spent on this dream.
 
 You just about manage to drive past your rival when your front tire touches the checkered white and black line at the end of the race.
 The seconds count down as you drive over the finish line. It feels as if time slowed down as you hear the busling crowd scream your name in a chant of victory.
 
 [[The end]] </tw-passagedata><tw-passagedata pid="31" name="Title" tags="materiale" position="200,600" size="100,100">&lt;img src=&quot;https://angelinakald.github.io/angelinakaldba.github.io/CP_Cars_IMG/titlecard_neonrunners_new.jpg&quot;\&gt;
+
+&lt;span style=&quot;font-size: 150%&quot;&gt;(text-colour:red)[Trigger warning!]&lt;/span&gt;
+This story contains depictions of triggers like:
+- Car crash
+- Death
+- Fire
+
 
 [[Intro]] </tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
